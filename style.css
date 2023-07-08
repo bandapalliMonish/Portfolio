@@ -1,0 +1,187 @@
+body{
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    /* background: -webkit-linear-gradient(top, #000000, #ffffff);
+    background: -moz-linear-gradient(left, #8e44ad, #3498db);
+    background: -o-linear-gradient(left, #8e44ad, #3498db); */
+    /* background: linear-gradient(300deg, black, white, black);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite; */
+}
+
+.container {
+    background-image: url(./assets/images/ales-nesetril-Im7lZjxeLhg-unsplash.jpg);
+    background-size: 100% auto;
+    height: 150vh;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-container {
+    background-color: transparent;
+    height: 60px;
+    display: flex;
+    margin: 0px;
+}
+
+li{
+    list-style: none;
+}
+
+#nav-header a {
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+#main-tag {
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 4rem;
+}
+
+#tag {
+    text-align: center;
+    /* margin-top: 1rem; */
+    font-size: 2rem;
+}
+
+#bio {
+    margin-top: 25rem;
+}
+
+.heading {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.bio-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bio-items {
+    display: inline-block;
+    align-items: center;
+    margin-left: 5rem;
+}
+
+#bio-image {
+    margin-left: 3rem;
+    border-radius: 50%;
+    margin-right: 10rem;
+}
+
+#bio-content {
+    margin-left: 100px;
+    font-size: 1.5rem;
+    padding-bottom: 100px;
+}
+
+.bio-heading {
+    font-weight: bold;
+}
+
+/* #edu-container {
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+
+.edu-items{
+    border: 2px solid white;
+    border-radius: 50px;
+    flex: 1 0;
+    padding: 50px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: rgb(255, 145, 0);
+}
+
+#bachelors {
+    background-image: url('./assets/images/sathyabama.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+#masters {
+    background-image: url('./assets/images/cincinnati.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+} */
+
+.gpa {
+    font-size: 3rem;
+    padding: 0;
+    margin: 0;
+}
+
+.cgpa {
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+#e-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.e-items {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.e-image-div {
+    grid-column: span 2;  
+}
+
+.e-image {
+    object-fit: cover;
+    height: 300px;
+    width: 700px;
+    border-radius: 50px;
+}
+
+.head {
+    
+}
+
+/* .text-container {
+    display: grid;
+    grid-template-rows: 3rem;
+    grid-template-columns: repeat(4, 0.25rem);
+}
+
+#b-image {
+    grid-column: span 2;
+} */
+
+@media (min-width: 992px) {
+    #nav-header {
+        font-size: 2rem;
+    }
+} 
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #nav-header {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    #nav-header {
+        font-size: 1rem;
+    }
+}
